@@ -88,7 +88,11 @@ param (
 $WallpaperStyle = Switch ($Style) {
   
     "Fill" {"10"}
-
+    "Fit" {"6"}
+    "Stretch" {"2"}
+    "Tile" {"88"}
+    "Center" {"0"}
+    "Span" {"22"}
   
 }
  
