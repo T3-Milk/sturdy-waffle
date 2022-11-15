@@ -50,7 +50,6 @@ iwr $w -O $env:TMP\s.wav
 #----------------------------------------------------------------------------------------------------
 
 <#
-
 .NOTES 
 	This will take the image you downloaded and set it as the targets wall paper
 #>
@@ -135,7 +134,6 @@ public class Params
 #----------------------------------------------------------------------------------------------------
 
 <#
-
 .NOTES 
 	This is to pause the script until a mouse movement is detected
 #>
@@ -158,7 +156,6 @@ $o=New-Object -ComObject WScript.Shell
 
 #----------------------------------------------------------------------------------------------------
 <#
-
 .NOTES 
 	This is to play the WAV file
 #>
@@ -181,7 +178,6 @@ Play-WAV
 #----------------------------------------------------------------------------------------------------
 
 <#
-
 .NOTES 
 	This is to clean up behind you and remove any evidence to prove you were there
 #>
