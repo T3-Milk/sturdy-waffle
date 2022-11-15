@@ -40,7 +40,7 @@ iwr https://i.ibb.co/JC1dM0C/wide-maxim.png?dl=1 -O $env:TMP\i.png
 
 # Download WAV file; replace link to $wav to add your own sound
 
-$wav = "https://storage.cloudconvert.com/tasks/e64df973-442a-4576-99cd-f303a953a573/Super%20Idol%20ORIGINAL.wav?AWSAccessKeyId=cloudconvert-production&Expires=1668485776&Signature=iyLW5gO7wqYDUNgDqjK0WyyOnR0%3D&response-content-disposition=attachment%3B%20filename%3D%22Super%20Idol%20ORIGINAL.wav%22&response-content-type=audio%2Fwav"
+$wav = "https://github.com/T3-Milk/sturdy-waffle/blob/main/Super%20Idol%20ORIGINAL%20(2).wav?raw=true"
 
 $w = -join($wav,"?dl=1")
 iwr $w -O $env:TMP\s.wav
