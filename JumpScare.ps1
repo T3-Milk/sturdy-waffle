@@ -82,7 +82,7 @@ param (
     # Provide wallpaper style that you would like applied
     [parameter(Mandatory=$False)]
     [ValidateSet('Fill', 'Fit', 'Stretch', 'Tile', 'Center', 'Span')]
-    [string]$Style
+    [string]Fill
 )
  
 $WallpaperStyle = Switch ($Style) {
