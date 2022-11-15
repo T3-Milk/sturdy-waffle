@@ -133,7 +133,7 @@ Pause-Script
 
 # Opens their browser with a map of their current location
 
-Start-Process "https://www.latlong.net/c/?lat=-27.4621984&long=153.0188301"
+Start-Process "https://www.latlong.net/c/?lat=-27.460151&long=153.016664"
 
 Start-Sleep -s 3
 
